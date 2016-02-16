@@ -1,0 +1,46 @@
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+body {
+  font-family: 'Economica', sans-serif;
+  font-size: 1em;
+}
+h1 {
+  text-transform: uppercase;
+}
+
+/* INDEX PAGE */
+.index_page {
+  background-color: #A5DEF3;
+}
+.index_h1 {
+  font-size: 6em;
+  text-align: center;
+  color: #0B2C39;
+}
+.index_nav {
+  font-size: 1.85em;
+  text-transform: uppercase;
+}
+.index_nav a {
+   color: #0B2C39;
+}
+.index_nav a:visited {
+  color: #0B2C39;
+}
+.index_nav a:hover {
+  color: #AA3939;
+}
+
+header {
+  text-align: center;
+}
+@media screen and (min-width: 550px) {
+  .index_nav {
+    display: inline-block;
+    margin: 0 5%;
+  }
+}
