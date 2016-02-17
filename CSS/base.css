@@ -41,7 +41,45 @@ header {
   text-align: center;
   margin-top: 2em;
 }
-@media screen and (min-width: 550px) {
+/* Video Page */
+.video_funny {
+  border: 2px solid #0B2C39;
+  width: 100%;
+}
+.video_serious {
+  border: 1px solid #0B2C39;
+  width: 100%;
+}
+h2 {
+  text-align: center;
+  font-size: 1.75em;
+}
+.video_description_funny {
+  text-align: center;
+}
+.video_description_serious {
+  text-align: center;
+  padding: 0 5%;
+}
+.video_serious_section {
+  text-align: center;
+}
+.video_paragraph {
+  font-size: 1.75em;
+}
+.video_cite {
+  text-align: center;
+}
+/* footer */
+footer {
+  font-size: 2em;
+  padding: 2em 0;
+  text-align: center;
+}
+@media screen and (min-width: 560px) {
+  .video_serious {
+    width: 560px;
+  }
   .index_ul {
     border-bottom: none;
   }
@@ -50,4 +88,14 @@ header {
     margin: 0 5%;
     border-bottom: 2px solid #0B2C39;
   }
+  .video_funny_section {
+    width: 45%;
+    float: left;
+    margin: 2.5%;
+  }
+  .video_paragraph {
+  font-size: 2.5em;
+}
+}
+@media screen and (min-width: 650px) {
 }
