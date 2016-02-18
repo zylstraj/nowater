@@ -119,9 +119,11 @@ footer {
   clear: both;
 }
 @media screen and (min-width: 560px) {
+  /* H1 Across the Problem, Video and Your Role pages */
   .index_h1 {
   font-size: 6em;
 }
+  /* Video Page */
   .video_serious {
     width: 560px;
   }
