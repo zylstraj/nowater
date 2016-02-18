@@ -3,6 +3,7 @@ ul {
 }
 a {
   text-decoration: none;
+  color: #0B2C39;
 }
 body {
   font-family: 'Economica', sans-serif;
@@ -11,7 +12,6 @@ body {
 h1 {
   text-transform: uppercase;
 }
-
 /* INDEX PAGE */
 .index_h1 {
   font-size: 6em;
@@ -40,6 +40,11 @@ h1 {
 header {
   text-align: center;
   margin-top: 2em;
+}
+/* Logo - No Water - Problem, Video, Involved Page */
+.logo_nowater {
+  padding: 1em 0 1em 1em;
+  font-size: 2.5em;
 }
 /* Video Page */
 .video_funny {
@@ -70,11 +75,52 @@ h2 {
 .video_cite {
   text-align: center;
 }
+/* The Problem. */
+.world_photos {
+  text-align: center;
+  padding-bottom: 1.5em;
+}
+.problem_p {
+  font-size: 1.75em;
+  text-align: center;
+  padding-bottom: 1em;
+}
+.stats_p {
+  font-size: 1.5em;
+  text-align: center;
+}
+.problem_why {
+  clear: both;
+  border-top: 2px solid #0B2C39;
+  padding-top: 2em;
+}
+.world_areas {
+  padding-bottom: 1em;
+}
 /* footer */
 footer {
   font-size: 2em;
   padding: 2em 0;
   text-align: center;
+  clear: both;
+}
+.getinvolved {
+  font-size: 1.75em;
+}
+.involved_p {
+  font-size: 1.75em;
+  text-align: center;
+}
+.bit-3 {
+  width: 100%;
+  text-align: center;
+  height: 250px;
+}
+.charity_water {
+  height: 70px;
+}
+.water {
+  height: 250px;
 }
 @media screen and (min-width: 560px) {
   .video_serious {
@@ -95,6 +141,33 @@ footer {
   }
   .video_paragraph {
   font-size: 2.5em;
+}
+/* Logo - No Water - Problem, Video, Involved Page */
+.logo_nowater {
+  padding: .5em 0 .5em 2em;
+  font-size: 3em;
+}
+/* Your Role: Get Involved Page */
+.getinvolved {
+  font-size: 2.5em;
+}
+.involved_p {
+  font-size: 2.5em;
+  text-align: center;
+}
+.bit-3 {
+  display: inline-block;
+  width: 45%;
+  float: left;
+  padding-bottom: 2em;
+}
+/* The Problem */
+.problem_p {
+  font-size: 2.5em;
+}
+.world_areas {
+  width: 50%;
+  float: left;
 }
 }
 @media screen and (min-width: 650px) {
